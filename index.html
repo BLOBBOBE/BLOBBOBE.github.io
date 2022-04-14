@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-    <script src="JavaScript/Index.js"></script>
+    <script src="JavaScript/Data.js"></script>
+    <script src="JavaScript/Style.js"></script>
     <style>
     .Body {
-        background-color: #1A202C;
         padding-top: 30px;
         padding-bottom: 30px;
         padding-left: 30px;
@@ -13,7 +13,7 @@
         font-size: 80px;
         font-family: sans-serif;
         text-align: center;
-        color: #FFFFFF;
+        color: #2d3748;
     }
     .Center { 
         margin: 0;
@@ -24,7 +24,7 @@
         transform: translate(-50%, -50%);
     }
     .Button {
-        filter: contrast(1);
+        filter: contrast(1.25);
         background-color: #2d3748;
         display: inline-block;
         border: none;
@@ -38,16 +38,17 @@
         font-weight: bold;
     }
     .Button:hover {
-        filter: contrast(1.25);
+        filter: contrast(1.50);
     }
     </style>
     <head>
         <title>[REDACTED]</title>
         <body class="Body">
-            <h1 class="Text" id="Pick" >Click The Button To Get a Catigory</h1>
+            <h1 class="Text" id="Pick" >Click The Button To Get a Category</h1>
             <div class="Center">
                 <button class="Button" onclick="clickEvent();"> Click Me! </button>
             </div>
+            <div id="Dirt"></div>
         </body>
     </head>
 </html> 
