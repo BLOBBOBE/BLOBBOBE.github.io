@@ -146,7 +146,9 @@ function clickEvent() {
         "Items You Take on a Trip",
         "Things That Have Wheels",
         "Things That Make You Smile",
-        "Holiday Activities"
+        "Holiday Activities",
+        "Food That Is Yellow",
+        "The Chance If You Getting This Is 1 In 148"
       ];
       
     var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
