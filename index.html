@@ -102,8 +102,8 @@ body #hills {
 .ICenter { 
     margin: 0;
     position: absolute;
-    top: 3%;
-    left: 98%;
+    top: 35%;
+    left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -112,13 +112,6 @@ body #hills {
   <head>
 
     <title>[REDACTED]</title>
-
-    <body class="Body">
-      <h1 class="Text" id="Pick" >Click The Button To Get a Category</h1>
-      <div class="Center">
-        <button class="Button" onclick="clickEvent();"> Click Me! </button>
-      </div>
-  </body>
 
     <section class="stage">
       <svg height="390" width="550" id="mountains">
@@ -184,5 +177,13 @@ body #hills {
 <canvas id="sky"></canvas>
 
 </section>
+        <body class="Body">
+            <div class="ICenter">
+              <h1 class="Text" id="Pick" >Click The Button To Get a Category</h1>
+            </div>
+            <div class="Center">
+              <button class="Button" onclick="clickEvent();"> Click Me! </button>
+            </div>
+        </body>
     </head>
 </html>
